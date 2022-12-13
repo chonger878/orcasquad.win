@@ -4,13 +4,13 @@ import { StyledMenu } from './Menu.styled';
 const Menu = () => {
   return (
     <StyledMenu>
-      <a href="/">
+      <a href="#">
         About
       </a>
-      <a href="/">
+      <a href="#">
         Discord
         </a>
-      <a href="/">
+      <a href="#">
         Contact
         </a>
     </StyledMenu>
