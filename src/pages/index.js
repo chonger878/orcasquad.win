@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-export { default as Burger } from '../components/Burger.js';
-export { default as Menu} from '../components/Menu.js';
+export { default as Burger } from '../components/Burger/Burger.js';
+export { default as Menu} from '../components/Menu/Menu.js';
 
 export default function Home() {
     return (
