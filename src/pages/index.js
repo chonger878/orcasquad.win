@@ -33,6 +33,9 @@ export default function Home() {
 
         </Head>
         <Header>
+            <Burger>
+                <Menu></Menu>
+            </Burger>
         </Header>
 
         </div>
