@@ -1,3 +1,4 @@
+import React, {useState } from 'react';
 import Head from 'next/head'
 import Header from '../components/Header'
 import Image from 'next/image'
@@ -6,6 +7,7 @@ import Burger from '../components/Burger/Burger.js';
 import Menu from '../components/Menu/Menu.js';
 
 export default function Home() {
+    const [open,setOpen] = useState(false);
     return (
         <div className={styles.container}>
         <Head>
@@ -33,9 +35,9 @@ export default function Home() {
 
         </Head>
         <Header>
-            <Burger>
-                <Menu></Menu>
-            </Burger>
+            <Burger open ={open} setOpen={setOpen}/>
+                <Menu open={open} setOpen={setOpen}/>
+            
         </Header>
 
         </div>
