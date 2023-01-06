@@ -1,4 +1,5 @@
 import styles from "../styles/Header.module.css";
+import HamburgerMenu from "./Burger/Burger";
 
 export default function Header() {
     return (

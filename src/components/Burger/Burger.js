@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { slide as Menu } from 'react-burger-menu'
+
 const HamburgerMenu = () => (<div className='relative p-2'>
     <Menu customBurgerIcon={<HamburgerIcon />} width={'auto'} className='left-0 top-12' >
         <Links />
