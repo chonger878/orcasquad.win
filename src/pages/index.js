@@ -3,8 +3,7 @@ import Head from 'next/head'
 import Header from '../components/Header'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import HamburgerMenu, {Links} from '../components/Burger/Burger';
-import '../styles/burger.css'
+
 
 export default function Home() {
     const [open,setOpen] = useState(false);
@@ -35,7 +34,7 @@ export default function Home() {
 
         </Head>
         <Header>
-            
+
         </Header>
 
         </div>
